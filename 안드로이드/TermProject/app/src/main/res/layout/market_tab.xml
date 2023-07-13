@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#80000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/lotte"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:onClick="onClick"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lottemart" />
+
+            <ImageButton
+                android:id="@+id/emart"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:onClick="onClick"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/emart" />
+
+            <ImageButton
+                android:id="@+id/homePlus"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:onClick="onClick"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/homeplus" />
+
+
+            <ImageButton
+                android:id="@+id/coupang"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:onClick="onClick"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/coupang" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
